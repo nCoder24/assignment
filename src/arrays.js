@@ -1,6 +1,5 @@
-const isEven = function(number) {
-  return number % 2 === 0;
-}
+const math = require("./math.js");
+const isEven = math.isEven;
 
 const selectEvenNumbers = function(numbers) {
   const evenNumbers = [];
